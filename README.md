@@ -1,1 +1,1 @@
-# airtifact
+# AI Artifats
