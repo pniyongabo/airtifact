@@ -26,58 +26,77 @@
   background: #0070f3;
 }
 
-.imageGrid {
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.imageCard {
+.card {
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  position: relative;
+  height: 450px; /* Fixed height for consistency */
+  display: flex;
+  flex-direction: column;
 }
 
-.imageCard:hover {
+.card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .imageWrapper {
   position: relative;
-  padding-top: 75%; /* 4:3 Aspect Ratio */
+  height: 250px; /* Fixed height for images */
   background: #f0f0f0;
 }
 
+.textWrapper {
+  height: 100%;
+  background: linear-gradient(45deg, #f6f8fa, #ffffff);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
 .image {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
   object-fit: cover;
 }
 
-.imageContent {
+.content {
   padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.imageTitle {
+.title {
   font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   color: #333;
 }
 
-.imageDescription {
+.description {
   color: #666;
   font-size: 0.95rem;
   line-height: 1.5;
   margin-bottom: 1rem;
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.badgeContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
 }
 
 .toolBadge {
@@ -85,6 +104,16 @@
   padding: 0.25rem 0.75rem;
   background: #e8f0fe;
   color: #0070f3;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.categoryBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #f0f0f0;
+  color: #666;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
@@ -103,4 +132,24 @@
 
 .viewMore:hover {
   background: #0051b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .card {
+    height: 400px;
+  }
+
+  .imageWrapper {
+    height: 200px;
+  }
 }
