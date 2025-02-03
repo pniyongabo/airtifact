@@ -58,7 +58,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      recentImages: allImages.slice(0, 4),
+      recentImages: allImages.slice(0, 2),
       recentText: allText.slice(0, 3),
     },
   }
