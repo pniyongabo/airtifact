@@ -1,0 +1,80 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.textarea {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #0051b3;
+}
+
+.button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #e00;
+  padding: 1rem;
+  background: #fee;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.result {
+  margin-top: 2rem;
+}
+
+.generatedImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.imageWrapper {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.generatedImage {
+  display: block;
+  width: 100%;
+  max-width: 512px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.imagePath {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
