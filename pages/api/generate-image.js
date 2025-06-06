@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 // Helper function to create a safe filename from prompt
-function createSafeFilename(prompt) {
+export function createSafeFilename(prompt) {
   return prompt
     .toLowerCase()
     .replace(/[^a-z0-9]/g, '-')
