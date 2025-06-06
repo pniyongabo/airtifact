@@ -1,6 +1,40 @@
+# AIRTIFACT
+
+AIRTIFACT is an open-source platform designed to facilitate sharing and collaboration on AI artifacts, such as code, datasets, media, and interactive visualizations. Built using modern web technologies like React and Next.js, the platform is aimed at AI practitioners, researchers, and students to promote open collaboration and knowledge exchange.
+
+## Features
+- **AI-assisted layout design**: The platform uses AI to optimize image and text content layouts.
+- **Image generation**: Generate images with the help of the Midjourney API.
+- **Automated deployment**: Powered by Vercel for easy deployment and firewall protection.
+  
+### MVP Completed:
+- **AI-assisted layout for images and text**: View examples [here](https://www.airtifact.net/images) and [here](https://www.airtifact.net/text).
+- **AI-generated images**: Available in the admin section [here](https://www.airtifact.net/admin/generate).
+
+## Contribute
+We welcome contributions from the community. Please refer to our [GitHub discussions](https://github.com/pniyongabo/airtifact) to share feedback, suggest features, or report issues.
+
+---
+
+Visit the live site: [AIRTIFACT.net](https://www.airtifact.net). 
+
+For detailed documentation on how AIRTIFACT was built using AI-assisted tools, check out the blog posts:
+- [Part I](https://patrickniyongabo.com/posts/creating-a-website-with-ai-1/)
+- [Part II](https://patrickniyongabo.com/posts/creating-a-website-with-ai-2/) 
+
+The source code is licensed under the MIT License.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+
+This project is bootstrapped with [Next.js](https://nextjs.org) and created using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+To get started, follow the steps below:
+
+### Run the Development Server
 
 First, run the development server:
 
@@ -14,23 +48,22 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, open http://localhost:3000 in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying app/page.tsx. The page will auto-update as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project also uses next/font to automatically optimize and load Geist, a new font family for Vercel.
 
 ## Learn More
-
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js Documentation - learn about Next.js features and API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Learn Next.js - an interactive Next.js tutorial.
+
+You can check out the Next.js GitHub repository for more details and to contribute.
 
 ## Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For more details on deployment, check out the Next.js deployment documentation.
