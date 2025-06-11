@@ -1,6 +1,6 @@
 ---
 title: "Fascinating GPT Hallucination"
-date: "2023-12-02"
+date: "2025-05-02"
 description: "An interesting case of AI hallucination from ChatGPT"
 category: "hallucination"
 tool: "ChatGPT"

@@ -1,6 +1,6 @@
 ---
 title: "Claude's Scientific Analysis"
-date: "2023-12-04"
+date: "2025-05-04"
 description: "An interesting case of AI providing novel scientific perspectives"
 category: "analysis"
 tool: "Claude"

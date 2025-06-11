@@ -1,6 +1,6 @@
 ---
 title: "GPT-4's Poetic Expression"
-date: "2023-12-03"
+date: "2025-05-03"
 description: "An unexpected poetry generation that shows remarkable understanding of metaphor and form"
 category: "creative"
 tool: "GPT-4"

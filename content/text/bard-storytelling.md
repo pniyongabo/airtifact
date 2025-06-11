@@ -1,6 +1,6 @@
 ---
 title: "Bard's Creative Storytelling"
-date: "2023-12-05"
+date: "2025-05-05"
 description: "A fascinating example of narrative creation by Google's Bard"
 category: "creative"
 tool: "Bard"
