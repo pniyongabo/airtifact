@@ -99,6 +99,31 @@
   font-size: 0.9rem;
 }
 
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.textDetail {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.textDetail .textContent {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .container {
