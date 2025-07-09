@@ -34,18 +34,16 @@ This project is bootstrapped with [Next.js](https://nextjs.org) and created usin
 
 To get started, follow the steps below:
 
-### Run the Development Server
+First, install the dependencies:
 
-First, run the development server:
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Once the server is running, open http://localhost:3000 in your browser to see the result.
